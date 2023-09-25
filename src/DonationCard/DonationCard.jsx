@@ -10,7 +10,8 @@ const DonationCard = ({donation}) => {
 //onClick={handleClick}
     
     return (
-        <Link to={`/donation/${id}`}> 
+        <div>
+          <Link to={`/donation/${id}`}>
             <div className="card card-compact bg-base-100 shadow-xl">
         <figure>
           <img
@@ -26,6 +27,7 @@ const DonationCard = ({donation}) => {
         </div>
       </div>
       </Link>
+      </div>
     );
 };
 
