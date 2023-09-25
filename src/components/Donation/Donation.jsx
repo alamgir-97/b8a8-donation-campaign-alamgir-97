@@ -1,9 +1,10 @@
+import Navbar from "../Navbar/Navbar";
 
 
 const Donation = () => {
     return (
         <div>
-            Donation
+           This is Donation Page
         </div>
     );
 };
