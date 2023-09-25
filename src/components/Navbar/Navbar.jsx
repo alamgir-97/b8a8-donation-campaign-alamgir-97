@@ -2,8 +2,8 @@
 
 const Navbar = () => {
     return (
-        <div className="text-3xl text-red-400 flex justify-between p-8 bg-pink-600">
-             <div >Donation Campaign</div>
+        <div className="max-w-screen-lg mx-auto flex justify-between mt-12 bg-pink-50 p-2">             
+             <img className="h-12" src="src\assets\Logo.png" alt="" />
         <div className=" flex gap-4">
           <button to="/">Home</button>
           <button to="/home">Donation</button>
