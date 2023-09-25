@@ -1,0 +1,135 @@
+[
+    {
+        "picture": "src/assets/Clothing.png",
+        "title": "Product 1",
+        "category": "Health",
+        "category_bg": "#FF0000",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#00FF00",
+        "description": "This is the description for Product 1.",
+        "price": "$19.99"
+    },
+    {
+        "picture": "src/assets/Education.png",
+        "title": "Product 2",
+        "category": "Education",
+        "category_bg": "#00FF00",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FF0000",
+        "description": "This is the description for Product 2.",
+        "price": "$29.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Clothing",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Food",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    },
+    {
+        "picture": "src/assets/Clothing.png",
+        "title": "Product 1",
+        "category": "Health",
+        "category_bg": "#FF0000",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#00FF00",
+        "description": "This is the description for Product 1.",
+        "price": "$19.99"
+    },
+    {
+        "picture": "src/assets/Education.png",
+        "title": "Product 2",
+        "category": "Education",
+        "category_bg": "#00FF00",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FF0000",
+        "description": "This is the description for Product 2.",
+        "price": "$29.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Clothing",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Food",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    },
+    {
+        "picture": "src/assets/Clothing.png",
+        "title": "Product 1",
+        "category": "Health",
+        "category_bg": "#FF0000",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#00FF00",
+        "description": "This is the description for Product 1.",
+        "price": "$19.99"
+    },
+    {
+        "picture": "src/assets/Education.png",
+        "title": "Product 2",
+        "category": "Education",
+        "category_bg": "#00FF00",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FF0000",
+        "description": "This is the description for Product 2.",
+        "price": "$29.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Clothing",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    },
+    {
+        "picture": "src/assets/Food.png",
+        "title": "Product 3",
+        "category": "Food",
+        "category_bg": "#0000FF",
+        "card_bg": "#FFFFFF",
+        "text_bg": "#000000",
+        "button_bg": "#FFFF00",
+        "description": "This is the description for Product 3.",
+        "price": "$39.99"
+    }
+
+]
