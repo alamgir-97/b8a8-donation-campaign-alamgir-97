@@ -19,10 +19,10 @@ const DonationCard = ({donation}) => {
           />
         </figure>
         <div className="card-body">
-          <div className="card-actions justify-end">
-            <button className={`btn bg-[${category_bg}]`}>{category}{category_bg}</button>
+          <div className="card-actions justify-start">
+            <button className={`rounded-lg px-3 py-1 text-sm font-medium bg-red-500 text-white`}>{category}</button>
           </div>
-          <h2 className={`card-title bg-[${category_bg}]`}>{title}</h2>
+          <h2 className={`card-title bg-[${category_bg}] text-xl font-semibold` }>{title}</h2>
         </div>
       </div>
       </Link>
