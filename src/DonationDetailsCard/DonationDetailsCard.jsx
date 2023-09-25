@@ -1,7 +1,10 @@
 import { useLoaderData } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const DonationDetailsCard = () => {
+  const notify = () => toast("Donation successful!");
   // const donationData = useLoaderData();
   // console.log(donationData);
 
@@ -18,7 +21,8 @@ const DonationDetailsCard = () => {
           <img src="./src/assets/Education.png"/>
           </figure>
           <div className="card-actions justify-start">
-            <button className="rounded-lg px-6 py-3 text-xl font-semibold bg-red-500 text-white -mt-24 ml-24">Donate$290</button>
+            <button onClick={notify} className="rounded-lg px-6 py-3 text-xl font-semibold bg-red-500 text-white -mt-24 ml-24">Donate$290</button>
+            <ToastContainer />
             </div>
        
 
