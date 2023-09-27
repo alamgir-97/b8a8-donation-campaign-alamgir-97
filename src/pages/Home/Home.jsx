@@ -8,8 +8,7 @@ const Home = () => {
     return (
         <div>
            <DonationCards></DonationCards>
-           <DonationDetailsCard></DonationDetailsCard>
-       
+               
            
         </div>
     );

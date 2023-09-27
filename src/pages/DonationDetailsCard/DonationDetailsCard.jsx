@@ -52,7 +52,7 @@ const donatioData = useLoaderData();
     <div className="max-w-screen-lg mx-auto">
       <div className="card card-compact bg-base-100 shadow-xl">
         <figure>
-          <img src="/src/assets/Education.png"/>
+          <img src="/src/assets/Rectangle 4287-1.png"/>
           </figure>
           <div className="card-actions justify-start">
             <button onClick={handleDonation} className="rounded-lg px-6 py-3 text-xl font-semibold bg-red-500 text-white -mt-24 ml-24">Donate$290</button>
