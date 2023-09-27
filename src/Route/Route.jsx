@@ -1,5 +1,5 @@
 import Home from "../pages/home/Home";
-import Donation from "../pages/Donation/Donation";
+import DonationPage from "../pages/DonationPage/DonationPage";
 import { createBrowserRouter } from "react-router-dom";
 import MainLayouts from "../layouts/MainLayouts";
 import CardSelection from "../pages/DonationSelectionCard/CardSelection";
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        element: <Donation></Donation>,
+        element: <DonationPage></DonationPage>,
          loader:()=>fetch('/cardData.json')
       },
       {

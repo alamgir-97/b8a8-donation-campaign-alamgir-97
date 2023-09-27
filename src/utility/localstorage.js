@@ -15,4 +15,4 @@ const saveDonation = id =>{
     }
 }
 
-export {saveDonation}
+export default {saveDonation}
