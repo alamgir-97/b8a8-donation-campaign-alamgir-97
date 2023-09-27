@@ -17,8 +17,7 @@ const MainLayouts = () => {
         <div className="h-[500px] bg-[#00000030] backdrop-blur-sm">
         {/* <img src="src/assets/Rectangle 4288.png" alt="" /> */}
         <Navbar></Navbar>
-        <Banner></Banner>
-        
+        <Banner></Banner>        
         </div>
       </div>
 

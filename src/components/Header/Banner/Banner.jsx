@@ -1,6 +1,22 @@
-
+import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 const Banner = () => {
+   
+    // console.log(data[0].title);
+    // console.log(data[1].title);
+    // console.log(data[2].title);
+    // console.log(useParams());
+    const [category, setCategory] = useState([]);
+    const {id} = useParams();
+    console.log(id);
+    // console.log(donation.title);
+    
+  
+
+    // const {title} = donation;
+    // console.log(title);
+   
     const handleSearch = (e) =>{
     e.preventDefault();
     const searchText = e.target.searchText.value;
