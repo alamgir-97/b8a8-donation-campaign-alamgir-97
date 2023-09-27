@@ -6,3 +6,9 @@ body {
   font-family: "Inter", sans-serif;
   
 }
+
+bg-img {
+  background-image: url('./src/assets/Education.png');
+  background-size: cover;
+  background-position: center;
+}
