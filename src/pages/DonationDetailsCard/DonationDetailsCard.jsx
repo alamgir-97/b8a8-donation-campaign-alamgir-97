@@ -8,28 +8,28 @@ import { useParams } from 'react-router-dom';
 
 
 
-const DonationDetailsCard = ({dat}) => {
+const DonationDetailsCard = () => {
   // const params = useParams()
   // console.log(params);
-  console.log(dat);
+ 
 
   
   
 const donatioData = useLoaderData();
-//  const {id} = donations;
   console.log(donatioData);
-  const [donations, setDonations] = useState([])
+
+//   const [donations, setDonations] = useState([])
     
-  useEffect(()=>{
-    fetch('cardData.json')
-    .then(res=>res.json())
-    .then(data=>setDonations(data))
-},[])
-useEffect(()=>{
-    fetch('cardData.json')
-    .then(res=>res.json())
-    .then(data=>console.log(data))
-},[])
+//   useEffect(()=>{
+//     fetch('cardData.json')
+//     .then(res=>res.json())
+//     .then(data=>setDonations(data))
+// },[])
+// useEffect(()=>{
+//     fetch('cardData.json')
+//     .then(res=>res.json())
+//     .then(data=>console.log(data))
+// },[])
     
 
 

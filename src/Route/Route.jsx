@@ -1,20 +1,24 @@
-import Home from "../components/Home/Home";
-import Donation from "../components/Donation/Donation";
-// import Statistics from "../components/Statistics/Statistics";
+import Home from "../pages/home/Home";
+import Donation from "../pages/Donation/Donation";
 import { createBrowserRouter } from "react-router-dom";
 import MainLayouts from "../layouts/MainLayouts";
-import DonationDetailsCard from "../DonationDetailsCard/DonationDetailsCard";
+import DonationDetailsCard from "../pages/DonationDetailsCard/DonationDetailsCard";
 import DonationSuccessfulCard from "../DonationSuccessfulCard/DonationSuccessfulCard";
+import Statistics from "../pages/Statistics/Statistics";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayouts></MainLayouts>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader:()=>fetch('/public/cardData.json')
+
+        // loader:()=>fetch('/public/cardData.json')
       },
       {
         path: "/donation",
@@ -30,7 +34,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <DonationSuccessfulCard></DonationSuccessfulCard>
+        element: <Statistics></Statistics>
       },
     ],
   },

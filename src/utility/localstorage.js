@@ -7,7 +7,6 @@ const getStoredDonation = () => {
 }
 
 const saveDonation = id =>{
-
     const storedDonations = getStoredDonation()
     const exists = storedDonations.find(donationId => donationId === id);
     if(!exists){

@@ -1,11 +1,11 @@
-import Banner from "../Banner/Banner";
-import Navbar from "../Navbar/Navbar";
+import DonationSuccessfulCard from "../../DonationSuccessfulCard/DonationSuccessfulCard";
 
 
 const Statistics = () => {
     return (
         <div>          
            This is statistics page
+           <DonationSuccessfulCard></DonationSuccessfulCard>
 
         </div>
     );

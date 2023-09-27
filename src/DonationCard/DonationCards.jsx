@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
-import DonationDetailsCard from "../DonationDetailsCard/DonationDetailsCard";
+import DonationDetailsCard from "../pages/DonationDetailsCard/DonationDetailsCard";
  import { useLoaderData } from "react-router-dom";
 
 

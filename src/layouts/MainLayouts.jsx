@@ -5,6 +5,10 @@ import Banner from "../components/Banner/Banner";
 
 
 
+
+
+
+
 // 
 const MainLayouts = () => {
   return (
@@ -14,6 +18,7 @@ const MainLayouts = () => {
         {/* <img src="src/assets/Rectangle 4288.png" alt="" /> */}
         <Navbar></Navbar>
         <Banner></Banner>
+        
         </div>
       </div>
 
